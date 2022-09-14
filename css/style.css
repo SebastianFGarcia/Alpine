@@ -1,0 +1,51 @@
+.header {
+  background-image: url("../img/header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 200px;
+}
+
+.text-header-name {
+  margin-left: 100px;
+  font-size: 4em;
+}
+
+.text-header-contacto {
+  font-size: 3em;
+}
+.text-header-contacto svg {
+  width: 40px;
+}
+
+@media (max-width: 850px) {
+  .text-header-name {
+    margin-left: 0;
+    font-size: 1.5em;
+  }
+  .text-header-contacto {
+    font-size: 1.5em;
+  }
+  .text-header-contacto svg {
+    width: 25px;
+  }
+}
+svg {
+  fill: #fff;
+  width: 30px;
+}
+
+#inicio {
+  background-image: url("../img/bg-inicio.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#about {
+  background-color: rgba(165, 194, 171, 0.6235294118);
+}
+
+#servicios {
+  background-color: #a5c2ab;
+}/*# sourceMappingURL=style.css.map */
